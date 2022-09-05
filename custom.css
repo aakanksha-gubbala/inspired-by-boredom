@@ -1,5 +1,4 @@
 :root {
-    --accent-bg: #fff;
     --accent: gray;
 }
 
@@ -78,7 +77,7 @@ nav > a {
 
 h4 {
     text-align: center;
-    color: #999999;
+    color: var(--text);
     font-weight: 200;
 }
 
