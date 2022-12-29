@@ -1,1 +1,1 @@
-(c) 2020 Simple.css (Kev Quirk)
+Uses <a href="https://watercss.kognise.dev">Water.css</a>
