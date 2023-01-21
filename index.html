@@ -1,134 +1,86 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>inspired by boredom</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <head>
+		<title>Inspired By Boredom</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.min.css">
 	</head>
-	<body>
-        <header>
-            <h3>Inspired By Boredom</h3>
-            <hr>
-            <nav>
-                <a href="#inspired">Inspired</a>
-                <a href="#random">Random</a>
-                <a href="#doodles">Doodles</a>
-            </nav>
-        </header>
-        
-        <section id="inspired">
-            <h4>Inspired</h4>
-        </section>
-        
-        <article>
-            <img src="art/17.jpg">
-            <h4>Enki</h4>
-        </article>
-        
-        <article>
-            <img src="art/01.jpg">
-            <h4>Elements of GoT</h4>
-        </article>
-        
-        <article>
-            <img src="art/15.jpg">
-            <h4>Sandman</h4>
-        </article>
-        
-        <article>
-            <img src="art/05.jpg">
-            <h4>Medusa</h4>
-        </article>
-        
-        <article>
-            <img src="art/12.jpg">
-            <h4>Preacher</h4>
-        </article>
-        
-        <article>
-            <img src="art/06.jpg">
-            <h4>Tibet</h4>
-        </article>
-        
-        <article>
-            <img src="art/14.jpg">
-            <h4>The dragon tattoo</h4>
-        </article>
-        
-        <footer>
-            <a href="#">Back to top ⬆</a>
-        </footer>
-        
-        <section id="random">
-            <h4>Random</h4>
-        </section>
-        
-        <article>
-            <img src="art/16.jpg">
-            <h4>Wolf vs Lion</h4>
-        </article>
-        
-        <article>
-            <img src="art/07.jpg">
-            <h4>Animal whose name I forgot</h4>
-        </article>
-        
-        <article>
-            <img src="art/08.jpg">
-            <h4>Old man</h4>
-        </article>
-        
-<!--
-        <article>
-            <img src="art/09.jpg">
-            <h4>Tattoo?</h4>
-        </article>
--->
-        
-        <article>
-            <img src="art/11.jpg">
-            <h4>Lungs</h4>
-        </article>
-        
-        <footer>
-            <a href="#">Back to top ⬆</a>
-        </footer>
-        
-        <section id="doodles">
-            <h4>Doodles</h4>
-        </section>
-        
-        <article>
-            <img src="art/02.jpg">
-            <h4>#1</h4>
-        </article>
-        
-        <article>
-            <img src="art/03.jpg">
-            <h4>#2</h4>
-        </article>
-        
-<!--
-        <article>
-            <img src="art/04.jpg">
-            <h4>#3</h4>
-        </article>
--->
-        
-        <article>
-            <img src="art/10.jpg">
-            <h4>#3</h4>
-        </article>
-        
-        <article>
-            <img src="art/13.jpg">
-            <h4>#4</h4>
-        </article>
-        
-        <footer>
-            <a href="#">Back to top ⬆</a>
-        </footer>
-	</body>
+    <style>
+        #gallery {
+            line-height:0;
+            -webkit-column-count: 5;
+            -webkit-column-gap: 0;
+            -moz-column-count: 5;
+            -moz-column-gap: 0;
+            column-count:5;
+            column-gap: 1px;
+        }
+        #gallery img {
+            width: 100% !important;
+            height: auto !important;
+            margin-bottom: 0;
+            filter: grayscale(100%);
+        }
+        #gallery img:hover {
+            filter:none;
+        }
+        @media (max-width: 1200px) {
+            #gallery {
+                -moz-column-count:    4;
+                -webkit-column-count: 4;
+                column-count:         4;
+            }
+        }
+        @media (max-width: 1000px) {
+        #gallery {
+                -moz-column-count:    3;
+                -webkit-column-count: 3;
+                column-count:         3;
+            }
+        }
+        @media (max-width: 800px) {
+        #gallery {
+                -moz-column-count:    2;
+                -webkit-column-count: 2;
+                column-count:         2;
+            }
+        }
+        @media (max-width: 400px) {
+        #gallery {
+                -moz-column-count:    1;
+                -webkit-column-count: 1;
+                column-count:         1;
+            }
+        }
+        h5 {
+            font-family: monospace;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+    <body>
+        <hr>
+        <h5>Before 2018</h5>
+        <hr>
+        <div id="gallery"> 
+            <img src="art/01.jpg" style="width:100%">
+            <img src="art/02.jpg" style="width:100%">
+            <img src="art/03.jpg" style="width:100%">
+            <img src="art/04.jpg" style="width:100%">
+            <img src="art/05.jpg" style="width:100%">
+            <img src="art/06.jpg" style="width:100%">
+            <img src="art/07.jpg" style="width:100%">
+            <img src="art/08.jpg" style="width:100%">
+            <img src="art/09.jpg" style="width:100%">
+            <img src="art/10.jpg" style="width:100%">
+            <img src="art/11.jpg" style="width:100%">
+            <img src="art/12.jpg" style="width:100%">
+            <img src="art/13.jpg" style="width:100%">
+            <img src="art/14.jpg" style="width:100%">
+            <img src="art/15.jpg" style="width:100%">
+            <img src="art/16.jpg" style="width:100%">
+            <img src="art/17.jpg" style="width:100%">
+        </div>
+    </body>
 </html>

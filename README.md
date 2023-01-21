@@ -1,1 +1,3 @@
-Uses <a href="https://watercss.kognise.dev">Water.css</a>
+### Inspired By Boredom
+
+Art gallery
